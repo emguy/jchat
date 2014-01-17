@@ -1,0 +1,2153 @@
+This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdftex 2008.1.27)  29 JAN 2008 21:04
+entering extended mode
+**java.tex
+(./java.tex (./highlight.sty (/usr/share/texmf/tex/plain/dvips/colordvi.tex))
+Overfull \hbox (27.79659pt too wide) in paragraph at lines 45--45
+[]      []\tentt clien-tUI[].[][]display[][]([][]"$[]$System$[]$ Could not send
+ mes-sage to server.[]  []Ter-mi-nat-ing client."[][]); |
+
+\hbox(6.94444+2.22223)x469.75499
+.\hbox(0.0+0.0)x20.0
+.\glue 5.24995
+.\glue 5.24995
+.\glue 5.24995
+.\glue 5.24995
+.etc.
+
+[1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/home/captain/.texmf-var/fonts/map/pdftex/updmap/pdfte
+x.map
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmb10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmbo10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmbx10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmbx12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmbx5' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmbx6' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmbx7' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmbx8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmbx9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmbxi10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmbxo10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmcsc10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmcsco10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmr10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmr12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmr17' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmr5' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmr6' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmr7' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmr8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmr9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmri10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmri12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmri7' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmri8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmri9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmro10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmro12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmro8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmro9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmss10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmss12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmss17' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmss8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmss9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmssbo10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmssbx10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmssdc10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmssdo10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmsso10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmsso12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmsso17' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmsso8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmsso9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmssq8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmssqbo8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmssqbx8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmssqo8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmtcsc10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmtt10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmtt12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmtt8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmtt9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmtti10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmtto10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmvtt10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `qx-lmvtto10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmb10' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmbo10' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmbx10' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmbx12' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmbx5' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmbx6' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmbx7' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmbx8' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmbx9' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmbxi10' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmbxo10' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmcsc10' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmcsco10' already exists, duplicates ig
+nored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmr10' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmr12' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmr17' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmr5' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmr6' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmr7' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmr8' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmr9' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmri10' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmri12' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmri7' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmri8' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmri9' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmro10' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmro12' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmro8' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmro9' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmss10' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmss12' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmss17' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmss8' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmss9' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmssbo10' already exists, duplicates ig
+nored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmssbx10' already exists, duplicates ig
+nored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmssdc10' already exists, duplicates ig
+nored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmssdo10' already exists, duplicates ig
+nored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmsso10' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmsso12' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmsso17' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmsso8' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmsso9' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmssq8' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmssqbo8' already exists, duplicates ig
+nored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmssqbx8' already exists, duplicates ig
+nored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmssqo8' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmtcsc10' already exists, duplicates ig
+nored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmtt10' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmtt12' already exists, duplicates igno
+red
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmtt8' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmtt9' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmtti10' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmtto10' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmvtt10' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `texnansi-lmvtto10' already exists, duplicates ig
+nored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmb10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmbo10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmbx10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmbx12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmbx5' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmbx6' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmbx7' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmbx8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmbx9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmbxi10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmbxo10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmcsc10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmcsco10' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmr10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmr12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmr17' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmr5' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmr6' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmr7' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmr8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmr9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmri10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmri12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmri7' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmri8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmri9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmro10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmro12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmro8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmro9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmss10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmss12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmss17' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmss8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmss9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmssbo10' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmssbx10' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmssdc10' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmssdo10' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmsso10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmsso12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmsso17' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmsso8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmsso9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmssq8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmssqbo8' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmssqbx8' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmssqo8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmtcsc10' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmtt10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmtt12' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmtt8' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmtt9' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmtti10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmtto10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmvtt10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdftex (file /home/captain/.texmf-var/fonts/map/pdftex/updmap/p
+dftex.map): fontmap entry for `ts1-lmvtto10' already exists, duplicates ignored
+
+}
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+Overfull \hbox (24.9998pt too wide) in paragraph at lines 110--110
+[]    [][]\tenbf this[][]\tentt .[][]sendToServer[][]([]command[][[][]0[][]] $[
+]$ [][]" "[][]$[]$ []com-mand[][[][]1[][]] $[]$ [][]" "[][]$[]$ []com-mand[][[]
+[]2[][]] $[]$ [][]" "[][]$[]$ []com-mand[][[][]3[][]]); |
+
+\hbox(6.94444+1.38887)x469.75499
+.\hbox(0.0+0.0)x20.0
+.\glue 5.24995
+.\glue 5.24995
+.\glue 5.24995
+.\glue 5.24995
+.etc.
+
+[2
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+Overfull \hbox (1.47214pt too wide) in paragraph at lines 136--136
+[]   []\tentt clien-tUI[].[][]display[][]([][]"$[]$System$[]$ The con-nec-tion 
+to the Server ("[][]$[]$ [][]\tenbf this[][]\tentt .[][]getHost[][]() $[]$ [][]
+":"[][]$[]$|
+
+\hbox(6.94444+2.22223)x469.75499
+.\hbox(0.0+0.0)x20.0
+.\glue 5.24995
+.\glue 5.24995
+.\glue 5.24995
+.\special{color cmyk 1 1 1 0.0}
+.etc.
+
+[3
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] )</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></u
+sr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb>
+Output written on java.pdf (3 pages, 32220 bytes).
+PDF statistics:
+ 32 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

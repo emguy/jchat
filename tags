@@ -1,0 +1,318 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AbstractClient	./ocsf/client/AbstractClient.java	/^  public AbstractClient(String host, int port){$/;"	m	class:AbstractClient
+AbstractClient	./ocsf/client/AbstractClient.java	/^public abstract class AbstractClient implements Runnable{$/;"	c
+AbstractClient	ocsf/client/AbstractClient.java	/^  public AbstractClient(String host, int port){$/;"	m	class:AbstractClient
+AbstractClient	ocsf/client/AbstractClient.java	/^public abstract class AbstractClient implements Runnable{$/;"	c
+AbstractServer	./ocsf/server/AbstractServer.java	/^  public AbstractServer(int port)$/;"	m	class:AbstractServer
+AbstractServer	./ocsf/server/AbstractServer.java	/^public abstract class AbstractServer implements Runnable$/;"	c
+AbstractServer	./ocsf/server/AbstractServer_.java	/^  public AbstractServer(int port){$/;"	m	class:AbstractServer
+AbstractServer	./ocsf/server/AbstractServer_.java	/^public abstract class AbstractServer implements Runnable{$/;"	c
+AbstractServer	ocsf/server/AbstractServer.java	/^  public AbstractServer(int port)$/;"	m	class:AbstractServer
+AbstractServer	ocsf/server/AbstractServer.java	/^public abstract class AbstractServer implements Runnable$/;"	c
+AbstractServer	ocsf/server/AbstractServer_.java	/^  public AbstractServer(int port){$/;"	m	class:AbstractServer
+AbstractServer	ocsf/server/AbstractServer_.java	/^public abstract class AbstractServer implements Runnable{$/;"	c
+ChatClient	./client/ChatClient.java	/^	public ChatClient(String host, int port, ChatIF clientUI) throws IOException{$/;"	m	class:ChatClient
+ChatClient	./client/ChatClient.java	/^public class ChatClient extends AbstractClient{$/;"	c
+ChatClient	client/ChatClient.java	/^	public ChatClient(String host, int port, ChatIF clientUI) throws IOException{$/;"	m	class:ChatClient
+ChatClient	client/ChatClient.java	/^public class ChatClient extends AbstractClient{$/;"	c
+ChatIF	./common/ChatIF.java	/^public interface ChatIF $/;"	i
+ChatIF	common/ChatIF.java	/^public interface ChatIF $/;"	i
+ChatServer	./server/ChatServer.java	/^	public ChatServer(int port, ChatIF serverUI){$/;"	m	class:ChatServer
+ChatServer	./server/ChatServer.java	/^public class ChatServer extends AbstractServer{$/;"	c
+ChatServer	server/ChatServer.java	/^	public ChatServer(int port, ChatIF serverUI){$/;"	m	class:ChatServer
+ChatServer	server/ChatServer.java	/^public class ChatServer extends AbstractServer{$/;"	c
+ClientConsole	./ClientConsole.java	/^	public ClientConsole(String host, int port){$/;"	m	class:ClientConsole
+ClientConsole	./ClientConsole.java	/^public class ClientConsole implements ChatIF{$/;"	c
+ClientConsole	ClientConsole.java	/^	public ClientConsole(String host, int port){$/;"	m	class:ClientConsole
+ClientConsole	ClientConsole.java	/^public class ClientConsole implements ChatIF{$/;"	c
+ConnectionToClient	./ocsf/server/ConnectionToClient.java	/^  ConnectionToClient(ThreadGroup group, Socket clientSocket, AbstractServer server) throws IOException{$/;"	m	class:ConnectionToClient
+ConnectionToClient	./ocsf/server/ConnectionToClient.java	/^public class ConnectionToClient extends Thread{$/;"	c
+ConnectionToClient	ocsf/server/ConnectionToClient.java	/^  ConnectionToClient(ThreadGroup group, Socket clientSocket, AbstractServer server) throws IOException{$/;"	m	class:ConnectionToClient
+ConnectionToClient	ocsf/server/ConnectionToClient.java	/^public class ConnectionToClient extends Thread{$/;"	c
+DB_PATH	./server/ChatServer.java	/^	final static String DB_PATH = "userInfo\/db";$/;"	f	class:ChatServer
+DB_PATH	server/ChatServer.java	/^	final static String DB_PATH = "userInfo\/db";$/;"	f	class:ChatServer
+DEFAULT_PORT	./ClientConsole.java	/^	final public static int DEFAULT_PORT = 5555;$/;"	f	class:ClientConsole
+DEFAULT_PORT	./ServerConsole.java	/^	final public static int DEFAULT_PORT = 5555;$/;"	f	class:ServerConsole
+DEFAULT_PORT	./server/ChatServer.java	/^	final public static int DEFAULT_PORT = 5555;$/;"	f	class:ChatServer
+DEFAULT_PORT	ClientConsole.java	/^	final public static int DEFAULT_PORT = 5555;$/;"	f	class:ClientConsole
+DEFAULT_PORT	ServerConsole.java	/^	final public static int DEFAULT_PORT = 5555;$/;"	f	class:ServerConsole
+DEFAULT_PORT	server/ChatServer.java	/^	final public static int DEFAULT_PORT = 5555;$/;"	f	class:ChatServer
+ServerConsole	./ServerConsole.java	/^	public ServerConsole(int port){$/;"	m	class:ServerConsole
+ServerConsole	./ServerConsole.java	/^public class ServerConsole implements ChatIF {$/;"	c
+ServerConsole	ServerConsole.java	/^	public ServerConsole(int port){$/;"	m	class:ServerConsole
+ServerConsole	ServerConsole.java	/^public class ServerConsole implements ChatIF {$/;"	c
+UserInfo	./userInfo/UserInfo.java	/^	public UserInfo(String id, String pw, String email){$/;"	m	class:UserInfo
+UserInfo	./userInfo/UserInfo.java	/^public class UserInfo{$/;"	c
+UserInfo	userInfo/UserInfo.java	/^	public UserInfo(String id, String pw, String email){$/;"	m	class:UserInfo
+UserInfo	userInfo/UserInfo.java	/^public class UserInfo{$/;"	c
+accept	./ClientConsole.java	/^	public void accept(){$/;"	m	class:ClientConsole
+accept	./ServerConsole.java	/^	public void accept(){$/;"	m	class:ServerConsole
+accept	ClientConsole.java	/^	public void accept(){$/;"	m	class:ClientConsole
+accept	ServerConsole.java	/^	public void accept(){$/;"	m	class:ServerConsole
+addNewUserToDB	./userInfo/UserInfo.java	/^	public void addNewUserToDB(String fileName){$/;"	m	class:UserInfo
+addNewUserToDB	userInfo/UserInfo.java	/^	public void addNewUserToDB(String fileName){$/;"	m	class:UserInfo
+backlog	./ocsf/server/AbstractServer.java	/^  private int backlog = 10;$/;"	f	class:AbstractServer
+backlog	./ocsf/server/AbstractServer_.java	/^  private int backlog = 10;$/;"	f	class:AbstractServer
+backlog	ocsf/server/AbstractServer.java	/^  private int backlog = 10;$/;"	f	class:AbstractServer
+backlog	ocsf/server/AbstractServer_.java	/^  private int backlog = 10;$/;"	f	class:AbstractServer
+checkReg	./userInfo/UserInfo.java	/^	public String checkReg(String fileName){$/;"	m	class:UserInfo
+checkReg	userInfo/UserInfo.java	/^	public String checkReg(String fileName){$/;"	m	class:UserInfo
+client	./ClientConsole.java	/^	ChatClient client;$/;"	f	class:ClientConsole
+client	./client/ChatClient.java	/^package client;$/;"	p
+client	ClientConsole.java	/^	ChatClient client;$/;"	f	class:ClientConsole
+client	client/ChatClient.java	/^package client;$/;"	p
+clientConnected	./ocsf/server/AbstractServer.java	/^  protected void clientConnected(ConnectionToClient client) {}$/;"	m	class:AbstractServer
+clientConnected	./ocsf/server/AbstractServer_.java	/^  protected void clientConnected(ConnectionToClient client) {}$/;"	m	class:AbstractServer
+clientConnected	ocsf/server/AbstractServer.java	/^  protected void clientConnected(ConnectionToClient client) {}$/;"	m	class:AbstractServer
+clientConnected	ocsf/server/AbstractServer_.java	/^  protected void clientConnected(ConnectionToClient client) {}$/;"	m	class:AbstractServer
+clientDisconnected	./ocsf/server/AbstractServer.java	/^  synchronized protected void clientDisconnected($/;"	m	class:AbstractServer
+clientDisconnected	./ocsf/server/AbstractServer_.java	/^  synchronized protected void clientDisconnected(ConnectionToClient client) {}$/;"	m	class:AbstractServer
+clientDisconnected	ocsf/server/AbstractServer.java	/^  synchronized protected void clientDisconnected($/;"	m	class:AbstractServer
+clientDisconnected	ocsf/server/AbstractServer_.java	/^  synchronized protected void clientDisconnected(ConnectionToClient client) {}$/;"	m	class:AbstractServer
+clientException	./ocsf/server/AbstractServer.java	/^  synchronized protected void clientException($/;"	m	class:AbstractServer
+clientException	./ocsf/server/AbstractServer_.java	/^  synchronized protected void clientException(ConnectionToClient client, Throwable exception) {}$/;"	m	class:AbstractServer
+clientException	ocsf/server/AbstractServer.java	/^  synchronized protected void clientException($/;"	m	class:AbstractServer
+clientException	ocsf/server/AbstractServer_.java	/^  synchronized protected void clientException(ConnectionToClient client, Throwable exception) {}$/;"	m	class:AbstractServer
+clientReader	./ocsf/client/AbstractClient.java	/^  private Thread clientReader;$/;"	f	class:AbstractClient
+clientReader	ocsf/client/AbstractClient.java	/^  private Thread clientReader;$/;"	f	class:AbstractClient
+clientSocket	./ocsf/client/AbstractClient.java	/^  private Socket clientSocket;$/;"	f	class:AbstractClient
+clientSocket	./ocsf/server/ConnectionToClient.java	/^  private Socket clientSocket;$/;"	f	class:ConnectionToClient
+clientSocket	ocsf/client/AbstractClient.java	/^  private Socket clientSocket;$/;"	f	class:AbstractClient
+clientSocket	ocsf/server/ConnectionToClient.java	/^  private Socket clientSocket;$/;"	f	class:ConnectionToClient
+clientThreadGroup	./ocsf/server/AbstractServer.java	/^  private ThreadGroup clientThreadGroup;$/;"	f	class:AbstractServer
+clientThreadGroup	./ocsf/server/AbstractServer_.java	/^  private ThreadGroup clientThreadGroup;$/;"	f	class:AbstractServer
+clientThreadGroup	ocsf/server/AbstractServer.java	/^  private ThreadGroup clientThreadGroup;$/;"	f	class:AbstractServer
+clientThreadGroup	ocsf/server/AbstractServer_.java	/^  private ThreadGroup clientThreadGroup;$/;"	f	class:AbstractServer
+clientUI	./client/ChatClient.java	/^	ChatIF clientUI; $/;"	f	class:ChatClient
+clientUI	client/ChatClient.java	/^	ChatIF clientUI; $/;"	f	class:ChatClient
+close	./ocsf/server/AbstractServer.java	/^  final synchronized public void close() throws IOException$/;"	m	class:AbstractServer
+close	./ocsf/server/AbstractServer_.java	/^  final synchronized public void close() throws IOException{$/;"	m	class:AbstractServer
+close	./ocsf/server/ConnectionToClient.java	/^  final public void close() throws IOException{$/;"	m	class:ConnectionToClient
+close	ocsf/server/AbstractServer.java	/^  final synchronized public void close() throws IOException$/;"	m	class:AbstractServer
+close	ocsf/server/AbstractServer_.java	/^  final synchronized public void close() throws IOException{$/;"	m	class:AbstractServer
+close	ocsf/server/ConnectionToClient.java	/^  final public void close() throws IOException{$/;"	m	class:ConnectionToClient
+closeAll	./ocsf/client/AbstractClient.java	/^  private void closeAll() throws IOException{$/;"	m	class:AbstractClient
+closeAll	./ocsf/server/ConnectionToClient.java	/^  private void closeAll() throws IOException{$/;"	m	class:ConnectionToClient
+closeAll	ocsf/client/AbstractClient.java	/^  private void closeAll() throws IOException{$/;"	m	class:AbstractClient
+closeAll	ocsf/server/ConnectionToClient.java	/^  private void closeAll() throws IOException{$/;"	m	class:ConnectionToClient
+closeConnection	./ocsf/client/AbstractClient.java	/^  final public void closeConnection() throws IOException{$/;"	m	class:AbstractClient
+closeConnection	ocsf/client/AbstractClient.java	/^  final public void closeConnection() throws IOException{$/;"	m	class:AbstractClient
+common	./common/ChatIF.java	/^package common;$/;"	p
+common	common/ChatIF.java	/^package common;$/;"	p
+connectionClosed	./ocsf/client/AbstractClient.java	/^  protected void connectionClosed() {}$/;"	m	class:AbstractClient
+connectionClosed	ocsf/client/AbstractClient.java	/^  protected void connectionClosed() {}$/;"	m	class:AbstractClient
+connectionEstablished	./ocsf/client/AbstractClient.java	/^  protected void connectionEstablished() {}$/;"	m	class:AbstractClient
+connectionEstablished	ocsf/client/AbstractClient.java	/^  protected void connectionEstablished() {}$/;"	m	class:AbstractClient
+connectionException	./client/ChatClient.java	/^	public void connectionException(Exception exception){$/;"	m	class:ChatClient
+connectionException	./ocsf/client/AbstractClient.java	/^  protected void connectionException(Exception exception) {}$/;"	m	class:AbstractClient
+connectionException	client/ChatClient.java	/^	public void connectionException(Exception exception){$/;"	m	class:ChatClient
+connectionException	ocsf/client/AbstractClient.java	/^  protected void connectionException(Exception exception) {}$/;"	m	class:AbstractClient
+connectionListener	./ocsf/server/AbstractServer.java	/^  private Thread connectionListener;$/;"	f	class:AbstractServer
+connectionListener	./ocsf/server/AbstractServer_.java	/^  private Thread connectionListener;$/;"	f	class:AbstractServer
+connectionListener	ocsf/server/AbstractServer.java	/^  private Thread connectionListener;$/;"	f	class:AbstractServer
+connectionListener	ocsf/server/AbstractServer_.java	/^  private Thread connectionListener;$/;"	f	class:AbstractServer
+display	./ClientConsole.java	/^	public void display(String message){$/;"	m	class:ClientConsole
+display	./ServerConsole.java	/^	public void display(String message){$/;"	m	class:ServerConsole
+display	./common/ChatIF.java	/^  public abstract void display(String message);$/;"	m	interface:ChatIF
+display	ClientConsole.java	/^	public void display(String message){$/;"	m	class:ClientConsole
+display	ServerConsole.java	/^	public void display(String message){$/;"	m	class:ServerConsole
+display	common/ChatIF.java	/^  public abstract void display(String message);$/;"	m	interface:ChatIF
+email	./userInfo/UserInfo.java	/^	String email;$/;"	f	class:UserInfo
+email	userInfo/UserInfo.java	/^	String email;$/;"	f	class:UserInfo
+finalize	./ocsf/server/ConnectionToClient.java	/^  protected void finalize(){$/;"	m	class:ConnectionToClient
+finalize	ocsf/server/ConnectionToClient.java	/^  protected void finalize(){$/;"	m	class:ConnectionToClient
+findPasswordFromDB	./userInfo/UserInfo.java	/^	public static String findPasswordFromDB(String id, String fileName){$/;"	m	class:UserInfo
+findPasswordFromDB	userInfo/UserInfo.java	/^	public static String findPasswordFromDB(String id, String fileName){$/;"	m	class:UserInfo
+getClientConnections	./ocsf/server/AbstractServer.java	/^  synchronized final public Thread[] getClientConnections()$/;"	m	class:AbstractServer
+getClientConnections	./ocsf/server/AbstractServer_.java	/^  synchronized final public Thread[] getClientConnections(){$/;"	m	class:AbstractServer
+getClientConnections	ocsf/server/AbstractServer.java	/^  synchronized final public Thread[] getClientConnections()$/;"	m	class:AbstractServer
+getClientConnections	ocsf/server/AbstractServer_.java	/^  synchronized final public Thread[] getClientConnections(){$/;"	m	class:AbstractServer
+getHost	./ocsf/client/AbstractClient.java	/^  final public String getHost(){$/;"	m	class:AbstractClient
+getHost	ocsf/client/AbstractClient.java	/^  final public String getHost(){$/;"	m	class:AbstractClient
+getInetAddress	./ocsf/client/AbstractClient.java	/^  final public InetAddress getInetAddress(){$/;"	m	class:AbstractClient
+getInetAddress	./ocsf/server/ConnectionToClient.java	/^  final public InetAddress getInetAddress(){$/;"	m	class:ConnectionToClient
+getInetAddress	ocsf/client/AbstractClient.java	/^  final public InetAddress getInetAddress(){$/;"	m	class:AbstractClient
+getInetAddress	ocsf/server/ConnectionToClient.java	/^  final public InetAddress getInetAddress(){$/;"	m	class:ConnectionToClient
+getInfo	./ocsf/server/ConnectionToClient.java	/^  public Object getInfo(String infoType){$/;"	m	class:ConnectionToClient
+getInfo	ocsf/server/ConnectionToClient.java	/^  public Object getInfo(String infoType){$/;"	m	class:ConnectionToClient
+getNumberOfClients	./ocsf/server/AbstractServer.java	/^  final public int getNumberOfClients()$/;"	m	class:AbstractServer
+getNumberOfClients	./ocsf/server/AbstractServer_.java	/^  final public int getNumberOfClients(){$/;"	m	class:AbstractServer
+getNumberOfClients	ocsf/server/AbstractServer.java	/^  final public int getNumberOfClients()$/;"	m	class:AbstractServer
+getNumberOfClients	ocsf/server/AbstractServer_.java	/^  final public int getNumberOfClients(){$/;"	m	class:AbstractServer
+getPort	./ocsf/client/AbstractClient.java	/^  final public int getPort(){$/;"	m	class:AbstractClient
+getPort	./ocsf/server/AbstractServer.java	/^  final public int getPort()$/;"	m	class:AbstractServer
+getPort	./ocsf/server/AbstractServer_.java	/^  final public int getPort(){$/;"	m	class:AbstractServer
+getPort	ocsf/client/AbstractClient.java	/^  final public int getPort(){$/;"	m	class:AbstractClient
+getPort	ocsf/server/AbstractServer.java	/^  final public int getPort()$/;"	m	class:AbstractServer
+getPort	ocsf/server/AbstractServer_.java	/^  final public int getPort(){$/;"	m	class:AbstractServer
+handleClientInteractions	./server/ChatServer.java	/^	public void handleClientInteractions(String[] command, ConnectionToClient client){$/;"	m	class:ChatServer
+handleClientInteractions	server/ChatServer.java	/^	public void handleClientInteractions(String[] command, ConnectionToClient client){$/;"	m	class:ChatServer
+handleCommandFromClientUI	./client/ChatClient.java	/^	public void handleCommandFromClientUI(String[] command){$/;"	m	class:ChatClient
+handleCommandFromClientUI	client/ChatClient.java	/^	public void handleCommandFromClientUI(String[] command){$/;"	m	class:ChatClient
+handleCommandFromServerUI	./server/ChatServer.java	/^	public void handleCommandFromServerUI(String[] command){$/;"	m	class:ChatServer
+handleCommandFromServerUI	server/ChatServer.java	/^	public void handleCommandFromServerUI(String[] command){$/;"	m	class:ChatServer
+handleMessageFromClient	./ocsf/server/AbstractServer.java	/^  protected abstract void handleMessageFromClient($/;"	m	class:AbstractServer
+handleMessageFromClient	./ocsf/server/AbstractServer_.java	/^  protected abstract void handleMessageFromClient(Object msg, ConnectionToClient client);$/;"	m	class:AbstractServer
+handleMessageFromClient	./server/ChatServer.java	/^	public void handleMessageFromClient(Object msg, ConnectionToClient client){$/;"	m	class:ChatServer
+handleMessageFromClient	ocsf/server/AbstractServer.java	/^  protected abstract void handleMessageFromClient($/;"	m	class:AbstractServer
+handleMessageFromClient	ocsf/server/AbstractServer_.java	/^  protected abstract void handleMessageFromClient(Object msg, ConnectionToClient client);$/;"	m	class:AbstractServer
+handleMessageFromClient	server/ChatServer.java	/^	public void handleMessageFromClient(Object msg, ConnectionToClient client){$/;"	m	class:ChatServer
+handleMessageFromClientUI	./client/ChatClient.java	/^	public void handleMessageFromClientUI(String message){$/;"	m	class:ChatClient
+handleMessageFromClientUI	client/ChatClient.java	/^	public void handleMessageFromClientUI(String message){$/;"	m	class:ChatClient
+handleMessageFromServer	./client/ChatClient.java	/^	public void handleMessageFromServer(Object msg){$/;"	m	class:ChatClient
+handleMessageFromServer	./ocsf/client/AbstractClient.java	/^  protected abstract void handleMessageFromServer(Object msg);$/;"	m	class:AbstractClient
+handleMessageFromServer	client/ChatClient.java	/^	public void handleMessageFromServer(Object msg){$/;"	m	class:ChatClient
+handleMessageFromServer	ocsf/client/AbstractClient.java	/^  protected abstract void handleMessageFromServer(Object msg);$/;"	m	class:AbstractClient
+handleMessageFromServerUI	./server/ChatServer.java	/^	public void handleMessageFromServerUI(String message){$/;"	m	class:ChatServer
+handleMessageFromServerUI	server/ChatServer.java	/^	public void handleMessageFromServerUI(String message){$/;"	m	class:ChatServer
+host	./ocsf/client/AbstractClient.java	/^  private String host;$/;"	f	class:AbstractClient
+host	ocsf/client/AbstractClient.java	/^  private String host;$/;"	f	class:AbstractClient
+id	./userInfo/UserInfo.java	/^	String id;$/;"	f	class:UserInfo
+id	userInfo/UserInfo.java	/^	String id;$/;"	f	class:UserInfo
+input	./ocsf/client/AbstractClient.java	/^  private ObjectInputStream input;$/;"	f	class:AbstractClient
+input	./ocsf/server/ConnectionToClient.java	/^  private ObjectInputStream input;$/;"	f	class:ConnectionToClient
+input	ocsf/client/AbstractClient.java	/^  private ObjectInputStream input;$/;"	f	class:AbstractClient
+input	ocsf/server/ConnectionToClient.java	/^  private ObjectInputStream input;$/;"	f	class:ConnectionToClient
+isConnected	./ocsf/client/AbstractClient.java	/^  final public boolean isConnected(){$/;"	m	class:AbstractClient
+isConnected	ocsf/client/AbstractClient.java	/^  final public boolean isConnected(){$/;"	m	class:AbstractClient
+isListening	./ocsf/server/AbstractServer.java	/^  final public boolean isListening()$/;"	m	class:AbstractServer
+isListening	./ocsf/server/AbstractServer_.java	/^  final public boolean isListening(){$/;"	m	class:AbstractServer
+isListening	ocsf/server/AbstractServer.java	/^  final public boolean isListening()$/;"	m	class:AbstractServer
+isListening	ocsf/server/AbstractServer_.java	/^  final public boolean isListening(){$/;"	m	class:AbstractServer
+isLogin	./client/ChatClient.java	/^	boolean isLogin;$/;"	f	class:ChatClient
+isLogin	client/ChatClient.java	/^	boolean isLogin;$/;"	f	class:ChatClient
+listen	./ocsf/server/AbstractServer.java	/^  final public void listen() throws IOException$/;"	m	class:AbstractServer
+listen	./ocsf/server/AbstractServer_.java	/^  final public void listen() throws IOException{$/;"	m	class:AbstractServer
+listen	ocsf/server/AbstractServer.java	/^  final public void listen() throws IOException$/;"	m	class:AbstractServer
+listen	ocsf/server/AbstractServer_.java	/^  final public void listen() throws IOException{$/;"	m	class:AbstractServer
+listeningException	./ocsf/server/AbstractServer.java	/^  protected void listeningException(Throwable exception) {}$/;"	m	class:AbstractServer
+listeningException	./ocsf/server/AbstractServer_.java	/^  protected void listeningException(Throwable exception) {}$/;"	m	class:AbstractServer
+listeningException	ocsf/server/AbstractServer.java	/^  protected void listeningException(Throwable exception) {}$/;"	m	class:AbstractServer
+listeningException	ocsf/server/AbstractServer_.java	/^  protected void listeningException(Throwable exception) {}$/;"	m	class:AbstractServer
+main	./ClientConsole.java	/^	public static void main(String[] args){$/;"	m	class:ClientConsole
+main	./ServerConsole.java	/^	public static void main(String[] args){$/;"	m	class:ServerConsole
+main	ClientConsole.java	/^	public static void main(String[] args){$/;"	m	class:ClientConsole
+main	ServerConsole.java	/^	public static void main(String[] args){$/;"	m	class:ServerConsole
+ocsf.client	./ocsf/client/AbstractClient.java	/^package ocsf.client;$/;"	p
+ocsf.client	ocsf/client/AbstractClient.java	/^package ocsf.client;$/;"	p
+ocsf.server	./ocsf/server/AbstractServer.java	/^package ocsf.server;$/;"	p
+ocsf.server	./ocsf/server/AbstractServer_.java	/^package ocsf.server;$/;"	p
+ocsf.server	./ocsf/server/ConnectionToClient.java	/^package ocsf.server;$/;"	p
+ocsf.server	ocsf/server/AbstractServer.java	/^package ocsf.server;$/;"	p
+ocsf.server	ocsf/server/AbstractServer_.java	/^package ocsf.server;$/;"	p
+ocsf.server	ocsf/server/ConnectionToClient.java	/^package ocsf.server;$/;"	p
+openConnection	./ocsf/client/AbstractClient.java	/^  final public void openConnection() throws IOException{$/;"	m	class:AbstractClient
+openConnection	ocsf/client/AbstractClient.java	/^  final public void openConnection() throws IOException{$/;"	m	class:AbstractClient
+output	./ocsf/client/AbstractClient.java	/^  private ObjectOutputStream output;$/;"	f	class:AbstractClient
+output	./ocsf/server/ConnectionToClient.java	/^  private ObjectOutputStream output;$/;"	f	class:ConnectionToClient
+output	ocsf/client/AbstractClient.java	/^  private ObjectOutputStream output;$/;"	f	class:AbstractClient
+output	ocsf/server/ConnectionToClient.java	/^  private ObjectOutputStream output;$/;"	f	class:ConnectionToClient
+port	./ocsf/client/AbstractClient.java	/^  private int port;$/;"	f	class:AbstractClient
+port	./ocsf/server/AbstractServer.java	/^  private int port;$/;"	f	class:AbstractServer
+port	./ocsf/server/AbstractServer_.java	/^  private int port;$/;"	f	class:AbstractServer
+port	ocsf/client/AbstractClient.java	/^  private int port;$/;"	f	class:AbstractClient
+port	ocsf/server/AbstractServer.java	/^  private int port;$/;"	f	class:AbstractServer
+port	ocsf/server/AbstractServer_.java	/^  private int port;$/;"	f	class:AbstractServer
+pw	./userInfo/UserInfo.java	/^	String pw;$/;"	f	class:UserInfo
+pw	userInfo/UserInfo.java	/^	String pw;$/;"	f	class:UserInfo
+quit	./client/ChatClient.java	/^	public void quit(){$/;"	m	class:ChatClient
+quit	client/ChatClient.java	/^	public void quit(){$/;"	m	class:ChatClient
+readyToStop	./ocsf/client/AbstractClient.java	/^  private boolean readyToStop= false;$/;"	f	class:AbstractClient
+readyToStop	./ocsf/server/AbstractServer.java	/^  private boolean readyToStop = false;$/;"	f	class:AbstractServer
+readyToStop	./ocsf/server/AbstractServer_.java	/^  private boolean readyToStop = false;$/;"	f	class:AbstractServer
+readyToStop	./ocsf/server/ConnectionToClient.java	/^  private boolean readyToStop;$/;"	f	class:ConnectionToClient
+readyToStop	ocsf/client/AbstractClient.java	/^  private boolean readyToStop= false;$/;"	f	class:AbstractClient
+readyToStop	ocsf/server/AbstractServer.java	/^  private boolean readyToStop = false;$/;"	f	class:AbstractServer
+readyToStop	ocsf/server/AbstractServer_.java	/^  private boolean readyToStop = false;$/;"	f	class:AbstractServer
+readyToStop	ocsf/server/ConnectionToClient.java	/^  private boolean readyToStop;$/;"	f	class:ConnectionToClient
+receiveMessageFromClient	./ocsf/server/AbstractServer.java	/^  final synchronized void receiveMessageFromClient($/;"	m	class:AbstractServer
+receiveMessageFromClient	./ocsf/server/AbstractServer_.java	/^  final synchronized void receiveMessageFromClient(Object msg, ConnectionToClient client){$/;"	m	class:AbstractServer
+receiveMessageFromClient	ocsf/server/AbstractServer.java	/^  final synchronized void receiveMessageFromClient($/;"	m	class:AbstractServer
+receiveMessageFromClient	ocsf/server/AbstractServer_.java	/^  final synchronized void receiveMessageFromClient(Object msg, ConnectionToClient client){$/;"	m	class:AbstractServer
+retrieveUID	./userInfo/UserInfo.java	/^	public static String retrieveUID(String email, String fileName){$/;"	m	class:UserInfo
+retrieveUID	userInfo/UserInfo.java	/^	public static String retrieveUID(String email, String fileName){$/;"	m	class:UserInfo
+run	./ocsf/client/AbstractClient.java	/^  final public void run(){$/;"	m	class:AbstractClient
+run	./ocsf/server/AbstractServer.java	/^  final public void run()$/;"	m	class:AbstractServer
+run	./ocsf/server/AbstractServer_.java	/^  final public void run(){$/;"	m	class:AbstractServer
+run	./ocsf/server/ConnectionToClient.java	/^  final public void run(){$/;"	m	class:ConnectionToClient
+run	ocsf/client/AbstractClient.java	/^  final public void run(){$/;"	m	class:AbstractClient
+run	ocsf/server/AbstractServer.java	/^  final public void run()$/;"	m	class:AbstractServer
+run	ocsf/server/AbstractServer_.java	/^  final public void run(){$/;"	m	class:AbstractServer
+run	ocsf/server/ConnectionToClient.java	/^  final public void run(){$/;"	m	class:ConnectionToClient
+savedInfo	./ocsf/server/ConnectionToClient.java	/^  private HashMap savedInfo = new HashMap(10);$/;"	f	class:ConnectionToClient
+savedInfo	ocsf/server/ConnectionToClient.java	/^  private HashMap savedInfo = new HashMap(10);$/;"	f	class:ConnectionToClient
+sendToAllClients	./ocsf/server/AbstractServer.java	/^  public void sendToAllClients(Object msg)$/;"	m	class:AbstractServer
+sendToAllClients	./ocsf/server/AbstractServer_.java	/^  public void sendToAllClients(Object msg){$/;"	m	class:AbstractServer
+sendToAllClients	ocsf/server/AbstractServer.java	/^  public void sendToAllClients(Object msg)$/;"	m	class:AbstractServer
+sendToAllClients	ocsf/server/AbstractServer_.java	/^  public void sendToAllClients(Object msg){$/;"	m	class:AbstractServer
+sendToClient	./ocsf/server/ConnectionToClient.java	/^  final public void sendToClient(Object msg) throws IOException{$/;"	m	class:ConnectionToClient
+sendToClient	ocsf/server/ConnectionToClient.java	/^  final public void sendToClient(Object msg) throws IOException{$/;"	m	class:ConnectionToClient
+sendToServer	./ocsf/client/AbstractClient.java	/^  final public void sendToServer(Object msg) throws IOException{$/;"	m	class:AbstractClient
+sendToServer	ocsf/client/AbstractClient.java	/^  final public void sendToServer(Object msg) throws IOException{$/;"	m	class:AbstractClient
+server	./ServerConsole.java	/^	ChatServer server;$/;"	f	class:ServerConsole
+server	./ocsf/server/ConnectionToClient.java	/^  private AbstractServer server;$/;"	f	class:ConnectionToClient
+server	./server/ChatServer.java	/^package server;$/;"	p
+server	ServerConsole.java	/^	ChatServer server;$/;"	f	class:ServerConsole
+server	ocsf/server/ConnectionToClient.java	/^  private AbstractServer server;$/;"	f	class:ConnectionToClient
+server	server/ChatServer.java	/^package server;$/;"	p
+serverClosed	./ocsf/server/AbstractServer.java	/^  protected void serverClosed() {}$/;"	m	class:AbstractServer
+serverClosed	./ocsf/server/AbstractServer_.java	/^  protected void serverClosed() {}$/;"	m	class:AbstractServer
+serverClosed	ocsf/server/AbstractServer.java	/^  protected void serverClosed() {}$/;"	m	class:AbstractServer
+serverClosed	ocsf/server/AbstractServer_.java	/^  protected void serverClosed() {}$/;"	m	class:AbstractServer
+serverOn	./server/ChatServer.java	/^	boolean serverOn;$/;"	f	class:ChatServer
+serverOn	server/ChatServer.java	/^	boolean serverOn;$/;"	f	class:ChatServer
+serverSocket	./ocsf/server/AbstractServer.java	/^  private ServerSocket serverSocket = null;$/;"	f	class:AbstractServer
+serverSocket	./ocsf/server/AbstractServer_.java	/^  private ServerSocket serverSocket = null;$/;"	f	class:AbstractServer
+serverSocket	ocsf/server/AbstractServer.java	/^  private ServerSocket serverSocket = null;$/;"	f	class:AbstractServer
+serverSocket	ocsf/server/AbstractServer_.java	/^  private ServerSocket serverSocket = null;$/;"	f	class:AbstractServer
+serverStarted	./ocsf/server/AbstractServer.java	/^  protected void serverStarted() {}$/;"	m	class:AbstractServer
+serverStarted	./ocsf/server/AbstractServer_.java	/^  protected void serverStarted() {}$/;"	m	class:AbstractServer
+serverStarted	./server/ChatServer.java	/^	protected void serverStarted(){$/;"	m	class:ChatServer
+serverStarted	ocsf/server/AbstractServer.java	/^  protected void serverStarted() {}$/;"	m	class:AbstractServer
+serverStarted	ocsf/server/AbstractServer_.java	/^  protected void serverStarted() {}$/;"	m	class:AbstractServer
+serverStarted	server/ChatServer.java	/^	protected void serverStarted(){$/;"	m	class:ChatServer
+serverStopped	./ocsf/server/AbstractServer.java	/^  protected void serverStopped() {}$/;"	m	class:AbstractServer
+serverStopped	./ocsf/server/AbstractServer_.java	/^  protected void serverStopped() {}$/;"	m	class:AbstractServer
+serverStopped	./server/ChatServer.java	/^	protected void serverStopped(){$/;"	m	class:ChatServer
+serverStopped	ocsf/server/AbstractServer.java	/^  protected void serverStopped() {}$/;"	m	class:AbstractServer
+serverStopped	ocsf/server/AbstractServer_.java	/^  protected void serverStopped() {}$/;"	m	class:AbstractServer
+serverStopped	server/ChatServer.java	/^	protected void serverStopped(){$/;"	m	class:ChatServer
+serverUI	./server/ChatServer.java	/^	ChatIF serverUI;$/;"	f	class:ChatServer
+serverUI	server/ChatServer.java	/^	ChatIF serverUI;$/;"	f	class:ChatServer
+setBacklog	./ocsf/server/AbstractServer.java	/^  final public void setBacklog(int backlog)$/;"	m	class:AbstractServer
+setBacklog	./ocsf/server/AbstractServer_.java	/^  final public void setBacklog(int backlog){$/;"	m	class:AbstractServer
+setBacklog	ocsf/server/AbstractServer.java	/^  final public void setBacklog(int backlog)$/;"	m	class:AbstractServer
+setBacklog	ocsf/server/AbstractServer_.java	/^  final public void setBacklog(int backlog){$/;"	m	class:AbstractServer
+setHost	./ocsf/client/AbstractClient.java	/^  final public void setHost(String host){$/;"	m	class:AbstractClient
+setHost	ocsf/client/AbstractClient.java	/^  final public void setHost(String host){$/;"	m	class:AbstractClient
+setInfo	./ocsf/server/ConnectionToClient.java	/^  public void setInfo(String infoType, Object info){$/;"	m	class:ConnectionToClient
+setInfo	ocsf/server/ConnectionToClient.java	/^  public void setInfo(String infoType, Object info){$/;"	m	class:ConnectionToClient
+setPort	./ocsf/client/AbstractClient.java	/^  final public void setPort(int port){$/;"	m	class:AbstractClient
+setPort	./ocsf/server/AbstractServer.java	/^  final public void setPort(int port)$/;"	m	class:AbstractServer
+setPort	./ocsf/server/AbstractServer_.java	/^  final public void setPort(int port){$/;"	m	class:AbstractServer
+setPort	ocsf/client/AbstractClient.java	/^  final public void setPort(int port){$/;"	m	class:AbstractClient
+setPort	ocsf/server/AbstractServer.java	/^  final public void setPort(int port)$/;"	m	class:AbstractServer
+setPort	ocsf/server/AbstractServer_.java	/^  final public void setPort(int port){$/;"	m	class:AbstractServer
+setTimeout	./ocsf/server/AbstractServer.java	/^  final public void setTimeout(int timeout)$/;"	m	class:AbstractServer
+setTimeout	./ocsf/server/AbstractServer_.java	/^  final public void setTimeout(int timeout){$/;"	m	class:AbstractServer
+setTimeout	ocsf/server/AbstractServer.java	/^  final public void setTimeout(int timeout)$/;"	m	class:AbstractServer
+setTimeout	ocsf/server/AbstractServer_.java	/^  final public void setTimeout(int timeout){$/;"	m	class:AbstractServer
+stopListening	./ocsf/server/AbstractServer.java	/^  final public void stopListening()$/;"	m	class:AbstractServer
+stopListening	./ocsf/server/AbstractServer_.java	/^  final public void stopListening(){$/;"	m	class:AbstractServer
+stopListening	ocsf/server/AbstractServer.java	/^  final public void stopListening()$/;"	m	class:AbstractServer
+stopListening	ocsf/server/AbstractServer_.java	/^  final public void stopListening(){$/;"	m	class:AbstractServer
+timeout	./ocsf/server/AbstractServer.java	/^  private int timeout = 500;$/;"	f	class:AbstractServer
+timeout	./ocsf/server/AbstractServer_.java	/^  private int timeout = 500;$/;"	f	class:AbstractServer
+timeout	ocsf/server/AbstractServer.java	/^  private int timeout = 500;$/;"	f	class:AbstractServer
+timeout	ocsf/server/AbstractServer_.java	/^  private int timeout = 500;$/;"	f	class:AbstractServer
+toString	./ocsf/server/ConnectionToClient.java	/^  public String toString(){$/;"	m	class:ConnectionToClient
+toString	./userInfo/UserInfo.java	/^	public String toString(){$/;"	m	class:UserInfo
+toString	ocsf/server/ConnectionToClient.java	/^  public String toString(){$/;"	m	class:ConnectionToClient
+toString	userInfo/UserInfo.java	/^	public String toString(){$/;"	m	class:UserInfo
+userInfo	./userInfo/UserInfo.java	/^package userInfo;$/;"	p
+userInfo	userInfo/UserInfo.java	/^package userInfo;$/;"	p

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>./ChatClient.java</title>
+<link rel="stylesheet" type="text/css" href="highlight.css"/>
+</head>
+<body class="hl">
+<pre class="hl"><span class="kwa">package</span> client<span class="sym">;</span>
+
+<span class="kwa">import</span> ocsf<span class="sym">.</span>client<span class="sym">.*;</span>
+<span class="kwa">import</span> common<span class="sym">.*;</span>
+<span class="kwa">import</span> java<span class="sym">.</span>io<span class="sym">.*;</span>
+
+<span class="kwa">public class</span> ChatClient <span class="kwa">extends</span> AbstractClient<span class="sym">{</span>
+
+	ChatIF clientUI<span class="sym">;</span>
+	<span class="kwb">boolean</span> isLogin<span class="sym">;</span>
+
+	<span class="kwa">public</span> <span class="kwd">ChatClient</span><span class="sym">(</span><span class="kwc">String</span> host<span class="sym">,</span> <span class="kwb">int</span> port<span class="sym">,</span> ChatIF clientUI<span class="sym">)</span> <span class="kwa">throws</span> <span class="kwc">IOException</span><span class="sym">{</span>
+		<span class="kwa">super</span><span class="sym">(</span>host<span class="sym">,</span> port<span class="sym">);</span>
+		<span class="kwa">this</span><span class="sym">.</span>clientUI <span class="sym">=</span> clientUI<span class="sym">;</span>
+		isLogin<span class="sym">=</span>false<span class="sym">;</span>
+		<span class="kwd">openConnection</span><span class="sym">();</span>
+		clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;You current status is not logged in.&quot;</span><span class="sym">);</span>
+	<span class="sym">}</span>
+
+	<span class="kwa">public</span> <span class="kwb">void</span> <span class="kwd">handleMessageFromServer</span><span class="sym">(</span><span class="kwc">Object</span> msg<span class="sym">){</span>
+		<span class="kwa">if</span><span class="sym">(</span>msg<span class="sym">.</span><span class="kwd">toString</span><span class="sym">().</span><span class="kwd">substring</span><span class="sym">(</span><span class="num">0</span><span class="sym">,</span><span class="num">7</span><span class="sym">).</span><span class="kwd">equals</span><span class="sym">(</span><span class="str">&quot;Welcome&quot;</span><span class="sym">))</span>
+			<span class="kwa">this</span><span class="sym">.</span>isLogin<span class="sym">=</span>true<span class="sym">;</span>
+		clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span>msg<span class="sym">.</span><span class="kwd">toString</span><span class="sym">());</span>
+	<span class="sym">}</span>
+
+	<span class="kwa">public</span> <span class="kwb">void</span> <span class="kwd">handleMessageFromClientUI</span><span class="sym">(</span><span class="kwc">String</span> message<span class="sym">){</span>
+		<span class="kwa">if</span><span class="sym">(</span>message<span class="sym">.</span><span class="kwd">charAt</span><span class="sym">(</span><span class="num">0</span><span class="sym">)==</span><span class="str">'#'</span><span class="sym">){</span>
+			<span class="kwc">String</span><span class="sym">[]</span> command<span class="sym">;</span>
+			command <span class="sym">=</span> message<span class="sym">.</span><span class="kwd">split</span><span class="sym">(</span><span class="str">&quot;</span><span class="esc">\\</span><span class="str">s+&quot;</span><span class="sym">);</span>
+			<span class="kwa">this</span><span class="sym">.</span><span class="kwd">handleCommandFromClientUI</span><span class="sym">(</span>command<span class="sym">);</span>
+		<span class="sym">}</span>
+		<span class="kwa">else</span><span class="sym">{</span>
+			<span class="kwa">if</span><span class="sym">(</span>isLogin<span class="sym">){</span>
+				<span class="kwa">try</span><span class="sym">{</span>
+				  <span class="kwa">this</span><span class="sym">.</span><span class="kwd">sendToServer</span><span class="sym">(</span>message<span class="sym">);</span>
+				<span class="sym">}</span>
+
+				<span class="kwa">catch</span><span class="sym">(</span><span class="kwc">IOException</span> e<span class="sym">){</span>
+				  clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Could not send message to server.  Terminating client.&quot;</span><span class="sym">);</span>
+				  <span class="kwd">quit</span><span class="sym">();</span>
+				<span class="sym">}</span>
+			<span class="sym">}</span>
+			<span class="kwa">else</span> clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Not Loged in&quot;</span><span class="sym">);</span>
+		<span class="sym">}</span>
+	<span class="sym">}</span>
+
+	<span class="kwa">public</span> <span class="kwb">void</span> <span class="kwd">handleCommandFromClientUI</span><span class="sym">(</span><span class="kwc">String</span><span class="sym">[]</span> command<span class="sym">){</span>
+		<span class="kwa">try</span><span class="sym">{</span>
+			<span class="kwa">if</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">].</span><span class="kwd">equals</span><span class="sym">(</span><span class="str">&quot;#quit&quot;</span><span class="sym">)){</span>
+				<span class="kwa">if</span><span class="sym">(</span>isLogin<span class="sym">)</span>
+					<span class="kwa">this</span><span class="sym">.</span><span class="kwd">sendToServer</span><span class="sym">(</span><span class="str">&quot;#logoff&quot;</span><span class="sym">);</span>
+				clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Session has ended.&quot;</span><span class="sym">);</span>
+				<span class="kwa">this</span><span class="sym">.</span><span class="kwd">quit</span><span class="sym">();</span>
+			<span class="sym">}</span>
+			<span class="kwa">else if</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">].</span><span class="kwd">equals</span><span class="sym">(</span><span class="str">&quot;#logoff&quot;</span><span class="sym">)){</span>
+				<span class="kwa">if</span><span class="sym">(</span>isLogin<span class="sym">){</span>
+					<span class="kwa">this</span><span class="sym">.</span><span class="kwd">sendToServer</span><span class="sym">(</span><span class="str">&quot;#logoff&quot;</span><span class="sym">);</span>
+					<span class="kwa">this</span><span class="sym">.</span><span class="kwd">closeConnection</span><span class="sym">();</span>
+					isLogin<span class="sym">=</span>false<span class="sym">;</span>
+					clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; You have Logged off from the server.&quot;</span><span class="sym">);</span>
+				<span class="sym">}</span>
+				<span class="kwa">else</span> clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; You have already logged off.&quot;</span><span class="sym">);</span>
+			<span class="sym">}</span>
+			<span class="kwa">else if</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">].</span><span class="kwd">equals</span><span class="sym">(</span><span class="str">&quot;#sethost&quot;</span><span class="sym">)){</span>
+				<span class="kwa">if</span><span class="sym">(</span>isLogin<span class="sym">)</span> clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Please log off first&quot;</span><span class="sym">);</span>
+				<span class="kwa">else</span> <span class="sym">{</span>
+					<span class="kwa">this</span><span class="sym">.</span><span class="kwd">setHost</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">1</span><span class="sym">]);</span>
+					clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; New host (&quot;</span> <span class="sym">+</span> command<span class="sym">[</span><span class="num">1</span><span class="sym">] +</span> <span class="str">&quot;) has been set.&quot;</span><span class="sym">);</span>
+				<span class="sym">}</span>
+			<span class="sym">}</span>
+			<span class="kwa">else if</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">].</span><span class="kwd">equals</span><span class="sym">(</span><span class="str">&quot;#setport&quot;</span><span class="sym">)){</span>
+				<span class="kwa">if</span><span class="sym">(</span>isLogin<span class="sym">)</span> clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Please log off first&quot;</span><span class="sym">);</span>
+				<span class="kwa">else</span> <span class="sym">{</span>
+					<span class="kwa">try</span><span class="sym">{</span>
+						<span class="kwa">this</span><span class="sym">.</span><span class="kwd">setPort</span><span class="sym">(</span><span class="kwc">Integer</span><span class="sym">.</span><span class="kwd">parseInt</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">1</span><span class="sym">]));</span>
+						clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; New port (&quot;</span> <span class="sym">+</span> command<span class="sym">[</span><span class="num">1</span><span class="sym">] +</span> <span class="str">&quot;) has been set.&quot;</span><span class="sym">);</span>
+					<span class="sym">}</span>
+					<span class="kwa">catch</span><span class="sym">(</span><span class="kwc">NumberFormatException</span> e<span class="sym">){</span>
+						clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Invalid port&quot;</span><span class="sym">);</span>
+					<span class="sym">}</span>
+				<span class="sym">}</span>
+			<span class="sym">}</span>
+			<span class="kwa">else if</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">].</span><span class="kwd">equals</span><span class="sym">(</span><span class="str">&quot;#login&quot;</span><span class="sym">)){</span>
+				<span class="kwa">if</span><span class="sym">(</span>isLogin<span class="sym">)</span> clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; You have already logged in.&quot;</span><span class="sym">);</span>
+				<span class="kwa">else</span> <span class="sym">{</span>
+					<span class="kwa">try</span><span class="sym">{</span> <span class="kwa">this</span><span class="sym">.</span><span class="kwd">openConnection</span><span class="sym">();</span>
+					<span class="kwa">this</span><span class="sym">.</span><span class="kwd">sendToServer</span><span class="sym">(</span><span class="str">&quot;#login &quot;</span> <span class="sym">+</span> command<span class="sym">[</span><span class="num">1</span><span class="sym">] +</span> <span class="str">&quot; &quot;</span> <span class="sym">+</span> command<span class="sym">[</span><span class="num">2</span><span class="sym">]);</span>
+					<span class="sym">}</span>
+					<span class="kwa">catch</span><span class="sym">(</span><span class="kwc">ArrayIndexOutOfBoundsException</span> e<span class="sym">){</span>
+						clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Invalid Input .&quot;</span><span class="sym">);</span>
+					<span class="sym">}</span>
+				<span class="sym">}</span>
+			<span class="sym">}</span>
+			<span class="kwa">else if</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">].</span><span class="kwd">equals</span><span class="sym">(</span><span class="str">&quot;#gethost&quot;</span><span class="sym">)){</span>
+				<span class="kwa">if</span><span class="sym">(</span>isLogin<span class="sym">)</span> clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="kwa">this</span><span class="sym">.</span><span class="kwd">getHost</span><span class="sym">());</span>
+				<span class="kwa">else</span> clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; You are currently not connected.&quot;</span><span class="sym">);</span>
+			<span class="sym">}</span>
+			<span class="kwa">else if</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">].</span><span class="kwd">equals</span><span class="sym">(</span><span class="str">&quot;#getport&quot;</span><span class="sym">)){</span>
+				<span class="kwa">if</span><span class="sym">(</span>isLogin<span class="sym">)</span> clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&quot;</span><span class="sym">+</span><span class="kwa">this</span><span class="sym">.</span><span class="kwd">getPort</span><span class="sym">());</span>
+				<span class="kwa">else</span> clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; You are currently not connected.&quot;</span><span class="sym">);</span>
+			<span class="sym">}</span>
+			<span class="kwa">else if</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">].</span><span class="kwd">equals</span><span class="sym">(</span><span class="str">&quot;#reg&quot;</span><span class="sym">)){</span>
+				clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Requesting ...&quot;</span><span class="sym">);</span>
+				<span class="kwa">this</span><span class="sym">.</span><span class="kwd">sendToServer</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">] +</span> <span class="str">&quot; &quot;</span> <span class="sym">+</span> command<span class="sym">[</span><span class="num">1</span><span class="sym">] +</span> <span class="str">&quot; &quot;</span> <span class="sym">+</span> command<span class="sym">[</span><span class="num">2</span><span class="sym">] +</span> <span class="str">&quot; &quot;</span> <span class="sym">+</span> command<span class="sym">[</span><span class="num">3</span><span class="sym">]);</span>
+			<span class="sym">}</span>
+			<span class="kwa">else if</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">].</span><span class="kwd">equals</span><span class="sym">(</span><span class="str">&quot;#regInfo&quot;</span><span class="sym">)){</span>
+				clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Sending infomation ...&quot;</span><span class="sym">);</span>
+				<span class="kwa">this</span><span class="sym">.</span><span class="kwd">sendToServer</span><span class="sym">(</span>command<span class="sym">[</span><span class="num">0</span><span class="sym">] +</span> <span class="str">&quot; &quot;</span> <span class="sym">+</span> command<span class="sym">[</span><span class="num">1</span><span class="sym">]);</span>
+			<span class="sym">}</span>
+			<span class="kwa">else</span> clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Command not found.&quot;</span><span class="sym">);</span>
+		<span class="sym">}</span>
+		<span class="kwa">catch</span><span class="sym">(</span><span class="kwc">IOException</span> e<span class="sym">){</span>
+			clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Could not reach server. Terminating client.&quot;</span><span class="sym">);</span>
+			<span class="kwd">quit</span><span class="sym">();</span>
+		<span class="sym">}</span>
+	<span class="sym">}</span>
+
+	<span class="kwa">public</span> <span class="kwb">void</span> <span class="kwd">quit</span><span class="sym">(){</span>
+		<span class="kwa">try</span><span class="sym">{</span>
+			<span class="kwd">closeConnection</span><span class="sym">();</span>
+		<span class="sym">}</span>
+		<span class="kwa">catch</span><span class="sym">(</span><span class="kwc">IOException</span> e<span class="sym">){}</span>
+		<span class="kwc">System</span><span class="sym">.</span><span class="kwd">exit</span><span class="sym">(</span><span class="num">0</span><span class="sym">);</span>
+	<span class="sym">}</span>
+
+	<span class="kwa">public</span> <span class="kwb">void</span> <span class="kwd">connectionException</span><span class="sym">(</span><span class="kwc">Exception</span> exception<span class="sym">){</span>
+		<span class="kwa">try</span><span class="sym">{</span>
+			<span class="kwa">this</span><span class="sym">.</span><span class="kwd">closeConnection</span><span class="sym">();</span>
+			isLogin<span class="sym">=</span>false<span class="sym">;</span>
+			clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; The connection to the Server (&quot;</span> <span class="sym">+</span> <span class="kwa">this</span><span class="sym">.</span><span class="kwd">getHost</span><span class="sym">() +</span> <span class="str">&quot;:&quot;</span> <span class="sym">+</span> <span class="kwa">this</span><span class="sym">.</span><span class="kwd">getPort</span><span class="sym">() +</span> <span class="str">&quot;) has been disconnected.&quot;</span><span class="sym">);</span>
+		<span class="sym">}</span>
+		<span class="kwa">catch</span><span class="sym">(</span><span class="kwc">IOException</span> e<span class="sym">){</span>
+			clientUI<span class="sym">.</span><span class="kwd">display</span><span class="sym">(</span><span class="str">&quot;&lt;System&gt; Unexpected error. Program terminates.&quot;</span><span class="sym">);</span>
+			<span class="kwd">quit</span><span class="sym">();</span>
+		<span class="sym">}</span>
+	<span class="sym">}</span>
+<span class="sym">}</span>
+</pre>
+</body>
+</html>
+<!--HTML generated by highlight 2.4.8, http://www.andre-simon.de/-->
