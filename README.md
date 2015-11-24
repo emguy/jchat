@@ -1,4 +1,4 @@
-simple_chat
+jchat
 ===========
 
 A light-weight client-server chatting program built on top of ocsf framework 
