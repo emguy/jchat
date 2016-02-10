@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-public class ConnectionToClient extends Thread{
+public class ConnectionToClient extends Thread {
   private AbstractServer server;
   private Socket clientSocket;
   private ObjectInputStream input;
@@ -12,92 +12,87 @@ public class ConnectionToClient extends Thread{
   private boolean readyToStop;
   private HashMap savedInfo = new HashMap(10);
 
-  ConnectionToClient(ThreadGroup group, Socket clientSocket, AbstractServer server) throws IOException{
-    super(group,(Runnable)null);
+  ConnectionToClient(ThreadGroup group, Socket clientSocket, AbstractServer server) throws IOException {
+    super(group, (Runnable) null);
     this.clientSocket = clientSocket;
     this.server = server;
     clientSocket.setSoTimeout(0); // make sure timeout is infinite
-    try{
+    try {
       input = new ObjectInputStream(clientSocket.getInputStream());
       output = new ObjectOutputStream(clientSocket.getOutputStream());
-    }
-    catch (IOException ex){
-      try{
+    } catch (IOException ex) {
+      try {
         closeAll();
+      } catch (Exception exc) {
       }
-      catch (Exception exc) { }
-      throw ex;  // Rethrow the exception.
+      throw ex; // Rethrow the exception.
     }
 
     readyToStop = false;
     start(); // Start the thread waits for data from the socket
   }
 
-  final public void sendToClient(Object msg) throws IOException{
+  final public void sendToClient(Object msg) throws IOException {
     if (clientSocket == null || output == null)
       throw new SocketException("socket does not exist");
 
     output.writeObject(msg);
   }
 
-  final public void close() throws IOException{
+  final public void close() throws IOException {
     readyToStop = true; // Set the flag that tells the thread to stop
 
-    try{
+    try {
       closeAll();
-    }
-    finally{
+    } finally {
       server.clientDisconnected(this);
     }
   }
 
-  final public InetAddress getInetAddress(){
+  final public InetAddress getInetAddress() {
     return clientSocket == null ? null : clientSocket.getInetAddress();
   }
 
-  public String toString(){
-    return clientSocket == null ? null :
-      clientSocket.getInetAddress().getHostName()
-        +" (" + clientSocket.getInetAddress().getHostAddress() + ")";
+  public String toString() {
+    return clientSocket == null ? null
+        : clientSocket.getInetAddress().getHostName() + " (" + clientSocket.getInetAddress().getHostAddress() + ")";
   }
 
-  public void setInfo(String infoType, Object info){
+  public void setInfo(String infoType, Object info) {
     savedInfo.put(infoType, info);
   }
 
-  public Object getInfo(String infoType){
+  public Object getInfo(String infoType) {
     return savedInfo.get(infoType);
   }
 
-  final public void run(){
+  final public void run() {
     server.clientConnected(this);
 
-    try{
+    try {
       // The message from the client
       Object msg;
 
-      while (!readyToStop){
+      while (!readyToStop) {
         // This block waits until it reads a message from the client
         // and then sends it for handling by the server
         msg = input.readObject();
         server.receiveMessageFromClient(msg, this);
       }
-    }
-    catch (Exception exception){
-      if (!readyToStop){
-        try{
+    } catch (Exception exception) {
+      if (!readyToStop) {
+        try {
           closeAll();
+        } catch (Exception ex) {
         }
-        catch (Exception ex) { }
 
         server.clientException(this, exception);
       }
     }
   }
 
-
-  private void closeAll() throws IOException{
-    try{
+  private void closeAll() throws IOException {
+    try {
       // Close the socket
       if (clientSocket != null)
         clientSocket.close();
@@ -109,18 +104,17 @@ public class ConnectionToClient extends Thread{
       // Close the input stream
       if (input != null)
         input.close();
-    }
-    finally{
+    } finally {
       output = null;
       input = null;
       clientSocket = null;
     }
   }
 
-  protected void finalize(){
-    try{
+  protected void finalize() {
+    try {
       closeAll();
+    } catch (IOException e) {
     }
-    catch(IOException e) {}
   }
 }
