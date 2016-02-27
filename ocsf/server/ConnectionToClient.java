@@ -10,7 +10,7 @@ public class ConnectionToClient extends Thread {
   private ObjectInputStream input;
   private ObjectOutputStream output;
   private boolean readyToStop;
-  private HashMap savedInfo = new HashMap(10);
+  private HashMap<String, Object> savedInfo = new HashMap<>(10);
 
   ConnectionToClient(ThreadGroup group, Socket clientSocket, AbstractServer server) throws IOException {
     super(group, (Runnable) null);

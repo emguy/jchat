@@ -1,7 +1,6 @@
 package userInfo;
 
 import java.io.*;
-import common.*;
 
 public class UserInfo {
 
@@ -24,6 +23,7 @@ public class UserInfo {
         s = reader.readLine();
         data = s.split("\\s+");
       } while (!data[0].equals(id) && !s.equals(null));
+      reader.close();
       return data[1];
     } catch (IOException ex) {
       return "";
@@ -60,6 +60,7 @@ public class UserInfo {
         if (data[0].equals(this.id))
           result = "id";
       } while (!s.equals(null) || !result.equals("valid"));
+      reader.close();
       return result;
     } catch (IOException ex) {
       return result;
@@ -80,6 +81,7 @@ public class UserInfo {
         if (data[2].equals(email))
           uid = data[0];
       } while (!s.equals(null) || !uid.equals(""));
+      reader.close();
       return uid;
     } catch (IOException ex) {
       return uid;
