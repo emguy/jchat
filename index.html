@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Jchat by emguy</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Jchat</h1>
+        <h2>Console chatting program written in java utilizing java sockets and java threads</h2>
+        <a href="https://github.com/emguy/jchat" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="jchat" class="anchor" href="#jchat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>jchat</h1>
+
+<hr>
+
+<p>A light-weight client-server console chatting program built on top of ocsf
+framework. The bidirectional server-client communication is enabled through
+Java sockets and Java threads.  This program also includes user authentication
+system, command handler, and a command-line shell.</p>
+
+<h2>
+<a id="ocsf-the-object-clientserver-framework" class="anchor" href="#ocsf-the-object-clientserver-framework" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OCSF: The Object Client/Server Framework</h2>
+
+<p>OCSF is a Java framework that can be used to develop client-server systems.</p>
+
+<p>This framework is called OCSF to reflect the fact that the client-server
+systems built using this framework will exchange Java objects. It is therefore
+strongly object-oriented as all the lower-level communication layers are
+encapslated inside the framework.</p>
+
+<p>This framework is described in the book <a href="http://www.amazon.com/Object-Oriented-Software-Engineering-Practical-Development/dp/0077109082/ref=cm_cr_pr_product_top?ie=UTF8">Object-Oriented Software Engineering:
+Practical Software Development using UML and Java</a> By Timothy C.  Lethbridge
+and Robert Laganière.</p>
+
+<h2>
+<a id="requirement" class="anchor" href="#requirement" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirement</h2>
+
+<ol>
+<li><a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java SE JDK</a></li>
+</ol>
+
+<h2>
+<a id="compilation-and-usage" class="anchor" href="#compilation-and-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compilation and Usage</h2>
+
+<ol>
+<li><p>Change directory to the root of <code>jchat</code>.</p></li>
+<li><p>Execute the following to compile the client program.</p></li>
+</ol>
+
+<pre><code>$ javac ClientConsole.java
+</code></pre>
+
+<ol>
+<li>Execute the following to compile the server program.</li>
+</ol>
+
+<pre><code>$ javac ServerConsole.java
+</code></pre>
+
+<ol>
+<li>To run the client program, execute following</li>
+</ol>
+
+<pre><code>$ java ClientConsole [HOST] [PORT]
+</code></pre>
+
+<p>Here, the default HOST is localhost, and the default PORT is 5555.</p>
+
+<ol>
+<li>To run the server program, execute the following</li>
+</ol>
+
+<pre><code>$ java ServerConsole [PORT]
+</code></pre>
+
+<p>Here, the default PORT is 5555.</p>
+
+<h2>
+<a id="client-side-commands" class="anchor" href="#client-side-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Client-side Commands</h2>
+
+<p>All commands must begin with the charactor '#'. After you log in, all other
+inputs will be treated as messages.</p>
+
+<ol>
+<li><p>Enter <code>#login UID PASSWORD</code> to login. Here the argument <code>UID</code> is the
+username, and <code>PASSWORD</code> is the password.</p></li>
+<li><p>Enter <code>#logoff</code> to logoff and exit this program.</p></li>
+<li><p>To register an account, enter <code>#reg UID PASSWORD EMAIL</code>, where <code>UID</code> is your
+intended user id, <code>PASSWORD</code> is your password, and <code>EMAIL</code> is your email
+address.</p></li>
+<li><p>Enter <code>#reginfo UID</code> to display user information.</p></li>
+</ol>
+
+<h2>
+<a id="server-side-commands" class="anchor" href="#server-side-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Server-side Commands</h2>
+
+<p>All commands must begin with the character '#'. All other inputs are treated as
+messages, which send to all connected clients.</p>
+
+<ol>
+<li><p>Enter <code>#quit</code> to terminate the server program.</p></li>
+<li><p>Enter <code>#stop</code> to stop listening the port.</p></li>
+<li><p>Enter <code>#start</code> to resume listening the port.</p></li>
+<li><p>Enter <code>#setport</code> to change the port number.</p></li>
+<li><p>Enter <code>#getport</code> to display the current port.</p></li>
+</ol>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/emguy/jchat/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/emguy/jchat/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/emguy/jchat"></a> is maintained by <a href="https://github.com/emguy">emguy</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
