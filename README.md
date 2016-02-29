@@ -3,8 +3,8 @@
 
 A light-weight client-server console chatting program built on top of ocsf
 framework. The bidirectional server-client communication is enabled through
-Java sockets and Java threads.  This program also includes user authentication
-system, command handler, and a command-line shell.
+Java sockets and Java threads.  This program also includes a user authentication
+system, a command handler, and a command-line shell.
 
 ## OCSF: The Object Client/Server Framework 
 OCSF is a Java framework that can be used to develop client-server systems.
